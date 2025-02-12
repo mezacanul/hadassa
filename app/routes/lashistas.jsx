@@ -25,7 +25,7 @@ export default function Lashistas() {
         alignItems={"center"}
         w={"100%"}
         align={"start"}
-        gap={"2rem"}
+        gap={"3rem"}
       >
         {lashistas.map((lsh) => {
           return <Lashista key={lsh.id} data={lsh} />;
@@ -42,13 +42,13 @@ function Lashista({ data }) {
   return (
     <NavLink to={"/agendar"}>
       <Box w={"100%"}>
-        <HStack align={"start"} w={"100%"} gap={0}>
+        <HStack align={"center"} w={"100%"} gap={0}>
           <Image
             // me={"1rem"}
             boxShadow={"-4px 4px 8px rgba(0,0,0,0.2)"}
             borderRadius={"100%"}
             objectFit={"cover"}
-            w={"10rem"}
+            w={"8rem"}
             src={`/img/lashistas/${data.id}.png`}
           />
 

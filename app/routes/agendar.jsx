@@ -12,7 +12,7 @@ import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import { NavLink } from "@remix-run/react";
 import Navbar from "../components/common/Navbar";
-import "./../style/FullCalendar.css"
+import "../style/FullCalendar.css"
 
 const events = [{ title: "Meeting", start: new Date() }];
 
