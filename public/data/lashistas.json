@@ -1,0 +1,20 @@
+[
+    {
+        "id": "lsh1",
+        "nombre": "Hadassa",
+        "horariosLV": ["09:30 - 13:00", "15:00 - 18:00"],
+        "horarioSBD": "09:00 - 14:00"
+    },
+    {
+        "id": "lsh2",
+        "nombre": "Aithana",
+        "horariosLV": ["09:30 - 14:00"],
+        "horarioSBD": ""
+    },
+    {
+        "id": "lsh3",
+        "nombre": "Eli",
+        "horariosLV": ["13:30 - 18:00"],
+        "horarioSBD": ""
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "as1",
+        "servicios": ["srv1", "srv3"],
+        "delay": 0
+    },
+    {
+        "id": "as2",
+        "servicios": ["srv2", "srv3"],
+        "delay": 0
+    },
+    {
+        "id": "as3",
+        "servicios": ["srv3", "srv3"],
+        "delay": 30
+    },
+    {
+        "id": "as4",
+        "servicios": ["srv3", "srv4"],
+        "delay": 30
+    },
+    {
+        "id": "as5",
+        "servicios": ["srv3", "srv8"],
+        "delay": 30
+    },
+    {
+        "id": "as6",
+        "servicios": ["srv2", "srv3"],
+        "delay": 30
+    },
+    {
+        "id": "as7",
+        "servicios": ["srv3", "srv6"],
+        "delay": 60
+    }
+]

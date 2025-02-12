@@ -1,0 +1,90 @@
+[
+    {
+        "id": "srv1",
+        "tipo": "default",
+        "servicio": "Diseño de cejas",
+        "descripcion": "Depilación de cejas con pinza.",
+        "minutos": 30,
+        "precio": 250
+    },
+    {
+        "id": "srv2",
+        "tipo": "default",
+        "servicio": "Brow Henna",
+        "descripcion": "Depilación de cejas con pinza y tinte henna para cejas.",
+        "minutos": 30,
+        "precio": 300
+    },
+    {
+        "id": "srv3",
+        "tipo": "default",
+        "servicio": "Lami Brow",
+        "descripcion": "Laminación / planchado de cejas con diseño, depilación y tinte henna.",
+        "minutos": 60,
+        "precio": 350
+    },
+    {
+        "id": "srv4",
+        "tipo": "default",
+        "servicio": "Lash Lift",
+        "descripcion": "Levantamiento/rizado de pestañas, incluye pigmento negro.",
+        "minutos": 60,
+        "precio": 450
+    },
+    {
+        "id": "srv5",
+        "tipo": "default",
+        "servicio": "Lash Lift Doble",
+        "descripcion": "Levantamiento/rizado de pestañas superiores e inferiores, incluye pigmento negro.",
+        "minutos": 90,
+        "precio": 600
+    },
+    {
+        "id": "srv6",
+        "tipo": "combo",
+        "servicio": "Lash Lift + Lami Brow",
+        "descripcion": "Levantamiento de pestañas laminado de Ceja depilacion y pigmento.",
+        "minutos": 90,
+        "precio": 700
+    },
+    {
+        "id": "srv7",
+        "tipo": "combo",
+        "servicio": "Lash Lift + Brow Henna",
+        "descripcion": "Levantamiento de pestañas depilación y pigmento henna",
+        "minutos": 60,
+        "precio": 650
+    },
+    {
+        "id": "srv8",
+        "tipo": "combo",
+        "servicio": "Lash Lift + Diseño de Cejas",
+        "descripcion": "Levantamiento de pestañas depilación y pigmento henna",
+        "minutos": 60,
+        "precio": 600
+    },
+    {
+        "id": "srv9",
+        "tipo": "combo-hadassa",
+        "servicio": "Lash Lift Doble + Lami Brow",
+        "descripcion": "",
+        "minutos": 120,
+        "precio": 850
+    },
+    {
+        "id": "srv10",
+        "tipo": "combo-hadassa",
+        "servicio": "Lash Lift Doble + Brow Henna",
+        "descripcion": "",
+        "minutos": 90,
+        "precio": 800
+    },
+    {
+        "id": "srv11",
+        "tipo": "combo-hadassa",
+        "servicio": "Lash Lift Doble + Diseño de Cejas",
+        "descripcion": "",
+        "minutos": 90,
+        "precio": 750
+    }
+]
