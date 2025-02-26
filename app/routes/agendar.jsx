@@ -12,9 +12,12 @@ import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import { NavLink } from "@remix-run/react";
 import Navbar from "../components/common/Navbar";
-import "../style/FullCalendar.css"
+import "./../style/FullCalendar.css";
 
-const events = [{ title: "Meeting", start: new Date() }];
+const events = [
+  { title: "Meeting", start: new Date() },
+  { title: "Meeting 2", start: new Date() },
+];
 
 // a custom render function
 function renderEventContent(eventInfo) {
@@ -29,14 +32,14 @@ function renderEventContent(eventInfo) {
 export default function Agendar() {
   return (
     <VStack py={"1rem"} px={"2rem"}>
-      <Navbar title={"Agendar"}/>
+      <Navbar title={"Agendar"} />
       <FullCalendar
-      height={"50vh"}
+        height={"80vh"}
         plugins={[dayGridPlugin]}
         initialView="dayGridMonth"
         weekends={false}
-        //   events={events}
-        //   eventContent={renderEventContent}
+        events={events}
+          eventContent={renderEventContent}
       />
     </VStack>
   );

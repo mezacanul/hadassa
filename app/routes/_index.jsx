@@ -28,41 +28,16 @@ export default function Index() {
   return (
     <VStack justify={"center"} py={"4rem"} px={"3rem"} h={"100vh"} w={"100vw"}>
       <VStack>
-        <Image mb={"2rem"} width={"80%"} src="hadassa-logo.jpg" />
+        <Image
+          mb={"2rem"}
+          width={{ xs: "80%", md: "65%", lg: "40%" }}
+          src="hadassa-logo.jpg"
+        />
 
         <VStack>
-          <NavLink to={"servicios"}>
-            <Heading
-              color={"pink.350"}
-              my={"1.5rem"}
-              fontWeight={200}
-              fontSize={"2.3rem"}
-            >
-              Servicios
-            </Heading>
-          </NavLink>
-
-          <NavLink to={"lashistas"}>
-            <Heading
-              color={"pink.350"}
-              my={"1.5rem"}
-              fontWeight={200}
-              fontSize={"2.3rem"}
-            >
-              Lashistas
-            </Heading>
-          </NavLink>
-          
-          <NavLink to={"agendar"}>
-            <Heading
-              color={"pink.350"}
-              my={"1.5rem"}
-              fontWeight={200}
-              fontSize={"2.3rem"}
-            >
-              Agendar
-            </Heading>
-          </NavLink>
+          {/* <MenuLink to={"servicios"} title={"Servicios"}/>
+          <MenuLink to={"lashistas"} title={"Lashistas"}/> */}
+          <MenuLink to={"agendar"} title={"Agendar"}/>
         </VStack>
       </VStack>
     </VStack>
@@ -71,4 +46,19 @@ export default function Index() {
 
 function Servicio() {
   return <Button>{children}</Button>;
+}
+
+function MenuLink({title, to}) {
+  return (
+    <NavLink to={to}>
+      <Heading
+        color={"pink.350"}
+        my={"1.5rem"}
+        fontWeight={200}
+        fontSize={"2.3rem"}
+      >
+        {title}
+      </Heading>
+    </NavLink>
+  );
 }

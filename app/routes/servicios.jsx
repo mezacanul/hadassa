@@ -34,9 +34,9 @@ function Servicio({ data }) {
   const imgSrc = data.tipo != "combo-hadassa" ? data.id : "combo-hadassa";
 
   return (
-    <NavLink to={"/agendar"}>
+    <NavLink to={"/agendar"} style={{width: "100%"}}>
       <Box>
-        <HStack>
+        <HStack w={"100%"}>
           <Image
             me={"1rem"}
             boxShadow={"-2px 2px 8px rgba(0,0,0,0.3)"}
@@ -45,7 +45,7 @@ function Servicio({ data }) {
             src={`/img/servicios/${imgSrc}.png`}
           />
 
-          <VStack align={"start"} gap={0}>
+          <VStack align={"start"} gap={0} w={"100%"}>
             <Heading color={"pink.250"}>{data.servicio}</Heading>
             <Text>{data.descripcion}</Text>
 
