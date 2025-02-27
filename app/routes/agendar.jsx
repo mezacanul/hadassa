@@ -15,16 +15,17 @@ import Navbar from "../components/common/Navbar";
 import "./../style/FullCalendar.css";
 
 const events = [
-  { title: "Meeting", start: new Date() },
-  { title: "Meeting 2", start: new Date() },
+  { title: "Hadassa", img: "img/lashistas/lsh1.png", start: new Date() },
+  { title: "Aitana", img:"img/lashistas/lsh2.png" ,start: new Date() },
+  { title: "Eli", img:"img/lashistas/lsh3.png" ,start: new Date() },
 ];
 
 // a custom render function
 function renderEventContent(eventInfo) {
   return (
     <>
-      <b>{eventInfo.timeText}</b>
-      <i>{eventInfo.event.title}</i>
+      <Image src={eventInfo.event.img} />
+      <Text>{eventInfo.event.title}</Text>
     </>
   );
 }
@@ -34,9 +35,9 @@ export default function Agendar() {
     <VStack py={"1rem"} px={"2rem"}>
       <Navbar title={"Agendar"} />
       <FullCalendar
-        height={"80vh"}
+        height={"50vh"}
         plugins={[dayGridPlugin]}
-        initialView="dayGridMonth"
+        initialView="dayGridWeek"
         weekends={false}
         events={events}
           eventContent={renderEventContent}

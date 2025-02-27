@@ -34,7 +34,7 @@ function Servicio({ data }) {
   const imgSrc = data.tipo != "combo-hadassa" ? data.id : "combo-hadassa";
 
   return (
-    <NavLink to={"/agendar"} style={{width: "100%"}}>
+    <NavLink to={"/lashistas"} style={{width: "100%"}}>
       <Box>
         <HStack w={"100%"}>
           <Image
