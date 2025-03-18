@@ -32,15 +32,15 @@ function renderEventContent(eventInfo) {
 
 export default function Agendar() {
   return (
-    <VStack py={"1rem"} px={"2rem"}>
-      <Navbar title={"Agendar"} />
+    <VStack py={"1rem"} px={"2rem"} bg={"#f1f1f1"}>
+      {/* <Navbar title={"Agendar"} /> */}
       <FullCalendar
         height={"50vh"}
         plugins={[dayGridPlugin]}
         initialView="dayGridMonth"
         weekends={false}
         events={events}
-          eventContent={renderEventContent}
+        eventContent={renderEventContent}
       />
     </VStack>
   );
