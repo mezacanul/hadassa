@@ -9,7 +9,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import FullCalendar from "@fullcalendar/react";
-import dayGridPlugin from "@fullcalendar/daygrid";
+import dayGridPlugin from "@fullcalendar/daygrid/index.js";
 import { NavLink } from "@remix-run/react";
 
 const events = [{ title: "Meeting", start: new Date() }];

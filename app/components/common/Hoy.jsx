@@ -1,4 +1,4 @@
-import '@mobiscroll/react/dist/css/mobiscroll.min.css';
+// import 'mobiscroll/react/dist/css/mobiscroll.min.css';
 import { Eventcalendar, formatDate, getJson, setOptions, localeEs } from '@mobiscroll/react';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 

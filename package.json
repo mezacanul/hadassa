@@ -16,6 +16,8 @@
     "@fullcalendar/core": "^6.1.15",
     "@fullcalendar/daygrid": "^6.1.15",
     "@fullcalendar/react": "^6.1.15",
+    "@fullcalendar/resource-timegrid": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
     "@mobiscroll/react": "npm:@mobiscroll/react-next-trial@^5.33.1",
     "@remix-run/node": "^2.15.2",
     "@remix-run/react": "^2.15.2",
