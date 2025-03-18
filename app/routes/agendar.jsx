@@ -37,7 +37,7 @@ export default function Agendar() {
       <FullCalendar
         height={"50vh"}
         plugins={[dayGridPlugin]}
-        initialView="dayGridWeek"
+        initialView="dayGridMonth"
         weekends={false}
         events={events}
           eventContent={renderEventContent}
